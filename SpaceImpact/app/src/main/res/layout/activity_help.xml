@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/highscorebg"
+    tools:context="com.example.application.project.Help">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/help_backButton"
+            android:background="@drawable/back"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/help_how"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:text="@string/HelpText1"
+            android:textStyle="bold|italic"
+            android:gravity="center"
+            android:fontFamily="serif"
+            android:layout_marginTop="35dp"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:id="@+id/help_classic"
+            android:background="@drawable/classic"
+            android:layout_below="@+id/help_how"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:id="@+id/help_noob"
+            android:background="@drawable/newbie"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/help_classic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/help_cls_tv"
+            android:text="@string/HelpText3"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:fontFamily="serif"
+            android:layout_margin="10dp"
+            android:layout_below="@id/help_noob"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/help_life"
+            android:background="@drawable/life"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/help_cls_tv"
+            android:layout_toLeftOf="@+id/help_life_tv"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/help_life_tv"
+            android:text="@string/Life"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:fontFamily="serif"
+            android:paddingTop="10dp"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/help_cls_tv"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/help_enemy"
+            android:background="@drawable/enemy"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/help_life"
+            android:layout_alignLeft="@+id/help_life" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/help_tv3"
+            android:text="@string/Enemy"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:fontFamily="serif"
+            android:paddingTop="10dp"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/help_life_tv"
+            android:layout_toRightOf="@+id/help_enemy" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:id="@+id/help_pro"
+            android:background="@drawable/expert"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/help_enemy" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/help_pro_tv"
+            android:text="@string/Pro_tv"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:fontFamily="serif"
+            android:layout_margin="10dp"
+            android:layout_below="@id/help_pro"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:id="@+id/help_arcade"
+            android:background="@drawable/arcade"
+            android:layout_below="@id/help_pro_tv"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/help_arc_tv"
+            android:text="@string/ArcHelp"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:fontFamily="serif"
+            android:layout_margin="10dp"
+            android:layout_below="@id/help_arcade"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/help_obs"
+            android:background="@drawable/fire"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/help_arc_tv"
+            android:layout_toLeftOf="@+id/help_obs_tv"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/help_obs_tv"
+            android:text="@string/Obs"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:fontFamily="serif"
+            android:paddingTop="20dp"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/help_arc_tv"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/help_enemy1"
+            android:background="@drawable/enemy"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/help_obs"
+            android:layout_alignLeft="@+id/help_obs" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/help_enemy_tv"
+            android:text="@string/Enemy"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:fontFamily="serif"
+            android:paddingTop="15dp"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/help_obs_tv"
+            android:layout_toRightOf="@+id/help_enemy1" />
+
+    </RelativeLayout>
+
+</ScrollView>

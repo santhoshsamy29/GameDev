@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/play_level1"
+        android:background="@drawable/classic"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/play_level2"
+        android:background="@drawable/arcade"
+        android:layout_below="@+id/play_level1"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

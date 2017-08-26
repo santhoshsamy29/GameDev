@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/highscorebg"
+    tools:context="com.example.application.project.HighScore">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/highscore_back"
+        android:background="@drawable/back"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/HIGH"
+        android:text="HIGH SCORE"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:textStyle="bold|italic"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:layout_margin="28dp"/>
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/highscore1"
+        android:textSize="30sp"
+        android:text="19"
+        android:textColor="#ffffff"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:layout_above="@+id/highscore2"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="70dp"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/classic"
+        android:layout_above="@+id/highscore1"
+        android:layout_margin="10dp"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/arcade"
+        android:layout_above="@+id/highscore1"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/highscore2"
+        android:text="19"
+        android:textSize="30sp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_above="@+id/highscore3"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="70dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/highscore3"
+        android:text="19"
+        android:textSize="30sp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="70dp"/>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/aHighscore1"
+        android:textSize="30sp"
+        android:text="20"
+        android:textColor="#ffffff"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:layout_above="@+id/aHighscore2"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="70dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/aHighscore2"
+        android:text="20"
+        android:textSize="30sp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_above="@+id/aHighscore3"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="70dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/aHighscore3"
+        android:text="20"
+        android:textSize="30sp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="70dp"/>
+
+
+</RelativeLayout>

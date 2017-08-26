@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="Friend">Friend</string>
+    <string name="Enemy">Enemy</string>
+    <string name="HelpText1">HOW TO PLAY</string>
+    <string name="Obs">Obstacle</string>
+    <string name="Pro_tv">Leaving 5 enemies behind means you lose a life.</string>
+    <string name="ArcHelp">Jump to miss the obstacles while you can shoot the enemies.</string>
+    <string name="Life">Click on the image to get a life</string>
+    <string name="HelpText3">Use the arrow buttons to move the space ships and hit the enemies with the bullets using shoot button. Watch out for the biggie bosses.</string>
+</resources>
